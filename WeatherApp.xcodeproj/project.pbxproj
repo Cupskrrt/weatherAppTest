@@ -17,6 +17,8 @@
 		F8FE1AC528314EF000023FC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE1A9B28314EEF00023FC5 /* ContentView.swift */; };
 		F8FE1AC628314EF000023FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FE1A9C28314EF000023FC5 /* Assets.xcassets */; };
 		F8FE1AC728314EF000023FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FE1A9C28314EF000023FC5 /* Assets.xcassets */; };
+		F8FE1AD72831617C00023FC5 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE1AD62831617C00023FC5 /* WeatherButton.swift */; };
+		F8FE1AD82831617C00023FC5 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE1AD62831617C00023FC5 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		F8FE1ABA28314EF000023FC5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FE1ABE28314EF000023FC5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F8FE1AC028314EF000023FC5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F8FE1AD62831617C00023FC5 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				F8FE1A9A28314EEF00023FC5 /* WeatherAppApp.swift */,
 				F8FE1A9B28314EEF00023FC5 /* ContentView.swift */,
+				F8FE1AD62831617C00023FC5 /* WeatherButton.swift */,
 				F8FE1A9C28314EF000023FC5 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				F8FE1AC428314EF000023FC5 /* ContentView.swift in Sources */,
 				F8FE1AC228314EF000023FC5 /* WeatherAppApp.swift in Sources */,
+				F8FE1AD72831617C00023FC5 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				F8FE1AC528314EF000023FC5 /* ContentView.swift in Sources */,
 				F8FE1AC328314EF000023FC5 /* WeatherAppApp.swift in Sources */,
+				F8FE1AD82831617C00023FC5 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
